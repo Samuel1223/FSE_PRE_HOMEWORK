@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>chatroom</title>
+        <link rel="stylesheet" href="../style/chatRoom_style.css" />
+        <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+        <script defer src="../client/chatroom.js"></script>
+    </head>
+
+    <body>
+
+            <!--Header Text & Lougout button-->
+            <div class="header"> 
+                <div class="FSEChatRoom"><b>FSE Chat Room</b></div>
+                <form class="Logout">
+                    <input type="button" value="Logout" class="LogoutButton" id="LogoutButton">
+                </form>
+            </div>
+
+
+            <div class="messagecontainer"  id="messagecontainer">
+            </div>
+
+
+            <!--User input and Post-->
+            <div class="UserInputText" id="UserInputText" style="position: relative;">
+                <form class="typecontainform" id="typecontainform">  
+                    
+                    <div class="typeSizer" id="typeSizer">
+                        <input type="text" class="typeBox" id="typeBox">
+                    </div>
+
+                    <div class="PostBackground">
+                            <input type="submit" value="Post" class="postButton">
+                    </div>
+                
+                </form>
+            </div>
+
+    </body>
+</html>

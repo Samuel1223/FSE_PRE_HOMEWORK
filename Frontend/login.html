@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>chatroom</title>
+        <link rel="stylesheet" href="../style/index_style.css" />
+        <script defer src="http://localhost:3000/socket.io/socket.io.js"></script>
+        <script defer src="../client/login.js"></script>
+    </head>
+
+    <body>
+            
+            <div class="FSEChatRoom"><b>FSE Chat Room</b></div>
+
+                <form id="logincontainer">
+                    <div class="UserLoginInput">
+                        <label for="Username">Username </label>
+                        <input type="text" id="Username">
+                    </div>
+
+                    <div class="UserLoginInput">
+                        <label for="Password">Password</label>
+                        <input type="text" id="Password">
+                    </div>
+
+                    <div class="UserSumit">     
+                        <button class="submitButton" id="loginbutton"> login</button>  
+                        <button class="submitButton" id="registerbutton"> register</button>           
+                    </div>
+
+
+                </form>
+        
+
+
+
+
+    </body>
+</html>

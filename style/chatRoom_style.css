@@ -1,0 +1,90 @@
+html, body {
+    height: 100%;
+}
+
+
+/* below is for header block*/
+.header{
+    display: flex;
+    align-items: center;
+    background-color: lightskyblue;
+    justify-content: space-between;
+}
+
+.FSEChatRoom{
+    padding:1%
+}
+
+.Logout{ 
+    padding: 1%;
+
+}
+
+.LogoutButton{
+    background-color: orange;
+
+}
+
+
+
+
+
+/* below is for chat block*/
+.messageBlock{
+    background-color: rgb(196, 196, 196);
+    margin: 0;
+    width: 99%;
+}
+
+.messageMeta{
+    margin: 0 1%;
+    display: flex;
+    justify-content: space-between; /* Horizontally center items */
+}
+
+
+.messageText{
+    margin: 0 1%;
+}
+
+
+
+
+
+/* below is for input block*/
+.UserInputText{
+    height:100%;
+}
+
+.typecontainform{
+
+    justify-content: center;
+    flex-wrap: wrap;
+    position: center;
+    height: 30%;
+}
+
+.typeSizer{
+    height:50%;
+}
+
+.typeBox{
+    width: 99%;
+    height: 80%;
+
+}
+
+
+
+.PostBackground{
+    background-color: lightskyblue;
+    display: flex;
+    justify-content: center;
+    height: 80px;    
+}
+
+
+.postButton{
+    background-color: orange;
+    margin: 3%;
+}

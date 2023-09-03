@@ -1,0 +1,26 @@
+.FSEChatRoom {
+    display: flex;
+    justify-content: center; /* Horizontally center items */
+    font-size: larger;
+    margin: 10%;
+
+}
+
+
+.UserLoginInput {
+    display: flex;
+    justify-content: center; /* Horizontally center items */
+    margin: 2%;
+}
+
+.UserSumit {
+    display: flex;
+    justify-content: center; /* Horizontally center items */
+    margin: 10%;
+}
+
+.submitButton{
+    background-color: lightskyblue;
+    margin: 0 1%;
+}
+
